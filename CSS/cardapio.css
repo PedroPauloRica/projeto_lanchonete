@@ -78,3 +78,22 @@
     align-items: center;
     gap: 20px;
 }
+
+@media screen and (max-width: 600px) {
+    .card{
+        width: 220px;
+    }
+
+    .area-imagem{
+        width: 180px;
+        height: 120px;
+    }
+
+    .card-heart{
+        height: 35px;
+        width: 50px;
+        font-size: 1rem;
+        top: -4px;
+        right: -6px;
+    }
+}

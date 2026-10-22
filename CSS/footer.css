@@ -16,3 +16,10 @@ footer{
     font-size: 18px;
     padding-bottom: 20px;
 }
+
+@media screen and (max-width: 600px) {
+    .copyright{
+        font-size: 12px;
+    }
+}
+

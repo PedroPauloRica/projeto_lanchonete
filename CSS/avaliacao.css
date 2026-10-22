@@ -40,3 +40,26 @@
     object-fit: cover;
     border: solid 3px var(--color-primary-5);
 }
+
+@media screen and (max-width:600px) {
+    .avaliacao{
+        flex-direction: column;
+    }
+
+    .avaliacao img{
+        width: 300px;
+    }
+
+    .feedback{
+        flex-direction: column;
+    }
+
+    .feedback-content{
+        width: 300px;
+    }
+
+    .feedback-content p{
+        font-size: 12px;
+    }
+
+}
