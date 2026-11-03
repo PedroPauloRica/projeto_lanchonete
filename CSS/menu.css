@@ -26,7 +26,7 @@ header{
     columns: var(--color-primary-3);
 }
 
-.mobile-bnt, .mobile-menu{
+.mobile-btn, .mobile-menu{
     display: none;
 }
 
@@ -61,5 +61,8 @@ header{
         text-align: center;
     }
 
+    .nav-item a{
+        color: aliceblue;
+    }
 
 }
